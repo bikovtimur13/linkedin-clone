@@ -19,7 +19,7 @@ const Login = (props) => {
                 </Hero>
                 <Form>
                     <Google>
-                        <img src="/images/google.svg" alt="google-logo"/>
+                        <img src="/images/google.svg" alt="google-logo" />
                         Sign in with Google
                     </Google>
                 </Form>
@@ -149,7 +149,6 @@ const Form = styled.div`
 
     @media(max-width: 768px){
         margin-top: 20px;
-
     }
 `;
 
@@ -174,7 +173,6 @@ const Google = styled.button`
         color: rgba(0, 0, 0, 0.75);
     }
 `;
-
 
 
 export default Login;
